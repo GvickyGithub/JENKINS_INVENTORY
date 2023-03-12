@@ -1,0 +1,9 @@
+---
+
+    - name: Run docker continer
+      import_tasks: nginx.yml
+      when: COMPONENT_NAME == "nginx"
+
+    - name: Run docker continer
+      import_tasks: nodejs.yml 
+      when: COMPONENT_NAME == "nodejs"
