@@ -1,8 +1,8 @@
 [nginx]
 #10.159.27.239  ansible_ssh_user=jioapp ansible_ssh_pass=M4!63x&Dp286x ansible_python_interpreter=/usr/bin/python3
 #10.167.230.160  ansible_ssh_user=jioapp ansible_ssh_pass=M4!63x&Dp286x ansible_python_interpreter=/usr/bin/python3
-18.220.113.202  ansible_ssh_user=vicky ansible_ssh_pass=Gvicky@312 ansible_python_interpreter=/usr/bin/python3
-#3.22.187.10  ansible_ssh_user=vicky ansible_ssh_pass=Gvicky@312 ansible_python_interpreter=/usr/bin/python3
+#18.220.113.202  ansible_ssh_user=vicky ansible_ssh_pass=Gvicky@312 ansible_python_interpreter=/usr/bin/python3
+3.22.187.10  ansible_ssh_user=vicky ansible_ssh_pass=Gvicky@312 ansible_python_interpreter=/usr/bin/python3
 [nginx:vars]
 ansible_ssh_common_args='-o StrictHostKeyChecking=no'
 ArtifactoryUserName=smas
