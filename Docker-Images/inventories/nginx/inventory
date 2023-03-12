@@ -1,0 +1,14 @@
+[nginx]
+#10.159.27.239  ansible_ssh_user=jioapp ansible_ssh_pass=M4!63x&Dp286x ansible_python_interpreter=/usr/bin/python3
+#10.167.230.160  ansible_ssh_user=jioapp ansible_ssh_pass=M4!63x&Dp286x ansible_python_interpreter=/usr/bin/python3
+10.167.230.215  ansible_ssh_user=jioapp ansible_ssh_pass=M4!63x&Dp286x ansible_python_interpreter=/usr/bin/python3
+[nginx:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ArtifactoryUserName=smas
+ArtifactoryPassword=smas@123
+ARTIFACTORY_URL=http://10.135.128.207/artifactory
+ARTIFACTORY_REPO=jiopower-admin-preprod
+get_url=http://venkatesh6.g:uNeewTquyCVKPKNHuDya@10.135.141.107/devices_internal/energyiot/bss/assets-service.git
+BUILD=jio_admin_build
+module=nginx
+user=vicky
