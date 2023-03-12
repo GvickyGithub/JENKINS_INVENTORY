@@ -1,0 +1,9 @@
+---
+  - name: Git clone nginx
+    become: yes
+    git:
+      repo: 'git@github.com:GvickyGithub/docker-nginx.git'
+      dest: /home/centos/
+      clone: yes
+      force: yes
+    ignore_errors: yes
