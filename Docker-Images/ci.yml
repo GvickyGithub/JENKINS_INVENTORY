@@ -7,5 +7,5 @@
 - name: initial steps
   hosts: "nginx"
   gather_facts: yes
-  #roles:
-  #  - "/data/workspace/JioSwapUp/updateyml-files/CI-Script/roles/Jioswapup-CI"
+  roles:
+    - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
