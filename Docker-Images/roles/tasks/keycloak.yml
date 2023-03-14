@@ -1,5 +1,5 @@
 ---
-  - name: Git clone nginx
+  - name: Git clone keycloak
     become: yes
     git:
       repo: 'https://github.com/GvickyGithub/keycloak.git'
