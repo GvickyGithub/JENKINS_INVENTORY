@@ -1,0 +1,9 @@
+---
+  - name: Git clone tomcat
+    become: yes
+    git:
+      repo: 'https://github.com/GvickyGithub/docker-tomcat.git'
+      dest: /data/tomcat
+      update: yes
+      force: yes
+    ignore_errors: yes
