@@ -2,7 +2,7 @@
   - name: Git clone nodejs
     become: yes
     git:
-      repo: 'https://github.com/GvickyGithub/nodejs-demo.gitt'
+      repo: 'https://github.com/GvickyGithub/nodejs-demo.git'
       dest: /data/nodejs
       update: yes
       force: yes
