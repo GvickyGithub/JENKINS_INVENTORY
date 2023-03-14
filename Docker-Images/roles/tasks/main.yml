@@ -7,3 +7,15 @@
     - name: Run docker continer
       import_tasks: nodejs.yml 
       when: COMPONENT_NAME == "nodejs"
+      
+    - name: Run docker continer
+      import_tasks: tomcat.yml
+      when: COMPONENT_NAME == "tomcat"
+
+    - name: Run docker continer
+      import_tasks: mongo.yml 
+      when: COMPONENT_NAME == "mongo"
+      
+    - name: Run docker continer
+      import_tasks: keycloak.yml
+      when: COMPONENT_NAME == "keycloak"
