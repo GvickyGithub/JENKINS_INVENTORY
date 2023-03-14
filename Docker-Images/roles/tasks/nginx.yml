@@ -3,7 +3,8 @@
     become: yes
     git:
       repo: 'https://github.com/GvickyGithub/docker-nginx.git'
-      dest: /home/centos/
+      dest: /data
+      state: directory
       clone: yes
       force: yes
     ignore_errors: yes
