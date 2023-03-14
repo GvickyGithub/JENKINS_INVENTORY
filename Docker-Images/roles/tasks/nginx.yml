@@ -4,7 +4,6 @@
     git:
       repo: 'https://github.com/GvickyGithub/docker-nginx.git'
       dest: /data
-      state: directory
-      clone: yes
+      update: yes
       force: yes
     ignore_errors: yes
