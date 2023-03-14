@@ -1,0 +1,13 @@
+[tomcat]
+3.22.187.10  ansible_ssh_user=vicky ansible_ssh_pass=Gvicky@312 ansible_python_interpreter=/usr/bin/python3
+[tomcat:vars]
+ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+ArtifactoryUserName=smas
+ArtifactoryPassword=smas@123
+ARTIFACTORY_URL=http://10.135.128.207/artifactory
+ARTIFACTORY_REPO=jiopower-admin-preprod
+get_url=http://venkatesh6.g:uNeewTquyCVKPKNHuDya@10.135.141.107/devices_internal/energyiot/bss/assets-service.git
+BUILD=jio_admin_build
+COMPONENT_NAME=tomcat
+module=tomcat
+user=vicky
