@@ -3,7 +3,7 @@
     become: yes
     git:
       repo: 'https://github.com/GvickyGithub/docker-nginx.git'
-      dest: /data
+      dest: /data/nginx
       update: yes
       force: yes
     ignore_errors: yes
