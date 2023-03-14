@@ -1,0 +1,9 @@
+---
+  - name: Git clone mongo
+    become: yes
+    git:
+      repo: 'https://github.com/GvickyGithub/mongo-docker.git'
+      dest: /data/mongo
+      update: yes
+      force: yes
+    ignore_errors: yes
