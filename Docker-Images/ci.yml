@@ -2,10 +2,25 @@
 - name: initial steps
   hosts: "nodejs"
   gather_facts: yes
-  #roles:
-  #  - "/data/workspace/JioSwapUp/updateyml-files/CI-Script/roles/Jioswapup-CI"
+  roles:
+    - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
 - name: initial steps
   hosts: "nginx"
+  gather_facts: yes
+  roles:
+    - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
+- name: initial steps
+  hosts: "tomcat"
+  gather_facts: yes
+  roles:
+    - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
+- name: initial steps
+  hosts: "mongo"
+  gather_facts: yes
+  roles:
+    - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
+- name: initial steps
+  hosts: "keycloak"
   gather_facts: yes
   roles:
     - "/home/centos/Jenkins_slave_node01/workspace/Jenkins_pipeline/Docker-Images/roles"
