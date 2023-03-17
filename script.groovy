@@ -1,1 +1,1 @@
-sh 'sudo /data/test.txt /app/'
+sh 'sudo cp -r /data/test.txt /app/'
