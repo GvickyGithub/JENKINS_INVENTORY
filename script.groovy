@@ -1,6 +1,1 @@
-def add() {
-   def a=2
-   def b=3
-   def add=a+b
-   return add
-}
+sh 'sudo /data/test.txt /app/'
